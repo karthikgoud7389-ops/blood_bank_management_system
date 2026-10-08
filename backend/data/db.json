@@ -1,0 +1,165 @@
+{
+  "donors": [
+    {
+      "id": 1,
+      "name": "chait",
+      "email": "chaitu@gmail.com",
+      "passwordHash": "$2a$10$s0hqrkEW7jE.jtrldBwNueb.kLtyo5HaiZwg9TPXEyQrCIF8XE3Zu",
+      "bloodGroup": "A+",
+      "phone": "12345678",
+      "city": "hyd",
+      "age": 18
+    }
+  ],
+  "donations": [
+    {
+      "id": 1,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 2,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 3,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 4,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 5,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 6,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 7,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 8,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 9,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 10,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    },
+    {
+      "id": 11,
+      "donorId": 1,
+      "donorName": "chait",
+      "bloodGroup": "A+",
+      "units": 1,
+      "donationDate": "2026-10-08",
+      "status": "CONFIRMED"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "patientName": "Karthick",
+      "phone": "12345689",
+      "hospital": "hyd",
+      "bloodGroup": "A+",
+      "units": 1,
+      "status": "ISSUED",
+      "requestDate": "2026-10-08",
+      "resolvedDate": "2026-10-08"
+    },
+    {
+      "id": 2,
+      "patientName": "chaitanya",
+      "phone": "12345678",
+      "hospital": "hyd",
+      "bloodGroup": "O+",
+      "units": 1,
+      "status": "UNAVAILABLE",
+      "requestDate": "2026-10-08",
+      "resolvedDate": "2026-10-08"
+    },
+    {
+      "id": 3,
+      "patientName": "name",
+      "phone": "1234567",
+      "hospital": "hyd",
+      "bloodGroup": "A+",
+      "units": 1,
+      "status": "ISSUED",
+      "requestDate": "2026-10-08",
+      "resolvedDate": "2026-10-08"
+    }
+  ],
+  "stock": {
+    "A+": 9,
+    "A-": 0,
+    "B+": 0,
+    "B-": 0,
+    "AB+": 0,
+    "AB-": 0,
+    "O+": 0,
+    "O-": 0
+  },
+  "seq": {
+    "donor": 1,
+    "donation": 11,
+    "request": 3
+  }
+}
