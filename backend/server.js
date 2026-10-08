@@ -2,6 +2,9 @@ import express from 'express';
 import cors from 'cors';
 import bcrypt from 'bcryptjs';
 import { randomUUID } from 'node:crypto';
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { GROUPS, load, save, nextId } from './db.js';
 
 const PORT = process.env.PORT || 5000;
