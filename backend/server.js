@@ -78,7 +78,11 @@ function confirmDonation(d) {
 
 // ---------- app ----------
 const app = express();
-app.use(cors({ origin: /^http:\/\/(localhost|127\.0\.0\.1):\d+$/ }));
+const allowed = (process.env.FRONTEND_URL || '').split(',').filter(Boolean);
+app.use(cors({
+  origin: (origin, cb) =>
+    cb(null, !origin || /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin) || allowed.includes(origin)),
+}));
 app.use(express.json());
 
 // Public: stock and blood requests
