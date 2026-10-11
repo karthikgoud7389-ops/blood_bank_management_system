@@ -5,11 +5,11 @@ let onUnauthorized = () => {};
 
 export const setToken = t => { token = t; };
 export const setUnauthorizedHandler = fn => { onUnauthorized = fn; };
-
+const BASE = (import.meta.env.VITE_API_URL || '') + '/api';
 export async function api(path, { method = 'GET', body } = {}) {
   const headers = { 'Content-Type': 'application/json' };
   if (token) headers.Authorization = `Bearer ${token}`;
-  const res = await fetch('/api' + path, {
+  const res = await fetch(BASE + path, {
     method,
     headers,
     body: body ? JSON.stringify(body) : undefined,
